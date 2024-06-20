@@ -33,7 +33,7 @@ const SIZES = {
 };
 
 const StyledButton = styled.button`
-  border: 10px solid red;
+  border: 0;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
@@ -391,7 +391,7 @@ Button.propTypes = {
   appearance: PropTypes.oneOf(Object.values(APPEARANCES)),
   isDisabled: PropTypes.bool,
   /**
-   Prevents users from clicking on a button multiple times (for things like payment forms)
+  Prevents users from clicking on a button multiple times (for things like payment forms)
   */
   isUnclickable: PropTypes.bool,
   /**
