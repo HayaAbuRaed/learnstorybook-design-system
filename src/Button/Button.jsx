@@ -391,7 +391,7 @@ Button.propTypes = {
   appearance: PropTypes.oneOf(Object.values(APPEARANCES)),
   isDisabled: PropTypes.bool,
   /**
-   Prevents users from clicking on a button multiple times (for things like payment forms)
+  Prevents users from clicking on a button multiple times (for things like payment forms)
   */
   isUnclickable: PropTypes.bool,
   /**
